@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{asset('dsgin/css/Bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('dsgin/css/fontawesome.min.css')}}">
+
+    <title>blog</title>
+  </head>
+  <body>
+  <div class="contanier">
+    @yield('content')
+  </div>   
+
+ 
+    <script src="{{asset('dsgin/js/jq.js')}}" ></script>
+    <script src="{{asset('dsgin/js/Bootstrap.min.js')}}" ></script>
+    <script src="{{asset('dsgin/js/popper.min.js')}}" ></script>
+  </body>
+</html>
